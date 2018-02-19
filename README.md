@@ -7,6 +7,7 @@ This repository gives you a set of tests that ensure basic functionality of Redu
 * Clone the repository
 * Install [Node v8.9.4](https://nodejs.org/en/) (LTS)
 * Run `npm install` in the project directory so that all dependencies are installed
+* Run `npm test` to run tests for the store and check if your implementation is correct
 
 ## Tests
 
