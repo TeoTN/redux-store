@@ -1,0 +1,22 @@
+{
+  "name": "redux-store",
+  "version": "1.0.0",
+  "description": "A redux store implementation in vanilla JS, tailored for workshops.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TeoTN/redux-store.git"
+  },
+  "author": "Piotr Staniów",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeoTN/redux-store/issues"
+  },
+  "homepage": "https://github.com/TeoTN/redux-store#readme",
+  "devDependencies": {
+    "jest": "22.3.0"
+  }
+}
