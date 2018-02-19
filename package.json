@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TeoTN/redux-store#readme",
   "devDependencies": {
+    "deepfreeze": "^2.0.0",
     "jest": "22.3.0"
   }
 }
