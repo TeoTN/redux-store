@@ -1,5 +1,5 @@
 # Redux store implementation
-A redux store implementation in vanilla JS, tailored a workshop.
+A redux store implementation in vanilla JS, tailored for a workshop.
 This repository gives you a set of tests that ensure basic functionality of Redux Store is implemented.
 
 ## Preliminaries
