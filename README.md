@@ -1,6 +1,9 @@
 # Redux store implementation
-A redux store implementation in vanilla JS, tailored for a workshop.
+A simple Redux store implementation in vanilla JS, tailored for a workshop.
 This repository gives you a set of tests that ensure basic functionality of Redux Store is implemented.
+
+> At its core, Redux is really a fairly simple design pattern: all your "write" logic goes into a single function, and the only way to run that logic is to give Redux a plain object that describes something that has happened.  The Redux store calls that write logic function and passes in the current state tree and the descriptive object, the write logic function returns some new state tree, and the Redux store notifies any subscribers that the state tree has changed.
+[- Redux page](https://redux.js.org)
 
 ## Preliminaries
 
@@ -9,7 +12,7 @@ This repository gives you a set of tests that ensure basic functionality of Redu
 * Run `npm install` in the project directory so that all dependencies are installed
 * Run `npm test` to run tests for the store and check if your implementation is correct
 
-## Tests
+## Test Cases
 
 * `should create a store` - it ensures that Store class is implemented and that it sets `state` property to some default value (e.g. empty object)
 * `should create a store with some initial state` - the Store is extended, it allows passing initial state and stores it
